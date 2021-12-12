@@ -9,11 +9,12 @@ body{
     display: grid;
     height: 100vh;
     place-items: center;
-    background: linear-gradient(to right, #bed4f7 0%,#4287f5 100%);
+    background-image:url(wood.png);
+    /* background: linear-gradient(to right, #bed4f7 0%,#4287f5 100%); */
 }
 
 .container{
-    background-color: #fff;
+    background-color: #fdefdd71;
     max-width: 350px;
     width: 100%;
     padding: 25px 30px;
@@ -24,7 +25,7 @@ body{
     position: absolute;
     left: 70%;
     border-radius: 50%;
-    border: 5px solid #4287f5;
+    border: 3px solid #4287f5;
     top: 5px;
     width: 90px;
     height: 90px;
@@ -49,6 +50,8 @@ body{
     height:45px;
     margin-top: 25px;
     position:relative;
+    
+    
 }
 
 .container form .input-box input{
@@ -57,6 +60,8 @@ body{
     outline: none;
     font-size: 16px;
     border: none;
+    border-radius: 5px;
+    padding-left: 5px;
 }
 
 .container form .underline::before{
